@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="AdvancedJava3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AdvancedJava3" target="1.6" />
+=======
+        <module name="adJava2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="adJava2" target="1.5" />
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,18 +3,25 @@ package com.mycompany.app;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+<<<<<<< HEAD
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 
 
+=======
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
 public class StockQuoteTest {
 
     @Test
     public void getQuoteTest(){
         String Symbol = "Googl";
+<<<<<<< HEAD
         StockQuote testQuote = new StockQuote(Symbol, Calendar.getInstance(),Calendar.getInstance());
+=======
+        StockQuote testQuote = new StockQuote(Symbol);
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
 
         //check return type
         assertTrue(testQuote.getSymbol() instanceof String);
@@ -23,6 +30,7 @@ public class StockQuoteTest {
         assertEquals(testQuote.getSymbol(),Symbol);
     }
 
+<<<<<<< HEAD
     @Test
     public void formatTest(){
         Calendar calendar = Calendar.getInstance();
@@ -33,4 +41,6 @@ public class StockQuoteTest {
 
     }
 
+=======
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
 }

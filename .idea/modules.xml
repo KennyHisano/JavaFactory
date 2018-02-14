@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/AdvancedJava3.iml" filepath="$PROJECT_DIR$/AdvancedJava3.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/adJava2.iml" filepath="$PROJECT_DIR$/adJava2.iml" />
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
     </modules>
   </component>
 </project>

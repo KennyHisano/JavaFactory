@@ -1,5 +1,6 @@
 package com.mycompany.app;
 
+<<<<<<< HEAD
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -7,6 +8,14 @@ import static org.junit.Assert.*;
 import java.util.Calendar;
 import java.util.List;
 
+=======
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+import org.mockito.Mockito;
+import static org.mockito.Mockito.when;
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
 
 
 public class BasicStockServiceTest {
@@ -22,13 +31,26 @@ public class BasicStockServiceTest {
     }
 
     @Test
+<<<<<<< HEAD
     public void QuoteTestInput(){
+=======
+    public void BasicSSTestInput(){
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
         //check two inputs.
         //one to expect return "Googl" for any string input
         // another to expect even if the input is null
         String symbol = "Apppl";
         String nullString = null;
+<<<<<<< HEAD
 
+=======
+        BasicStockService basicStockService = new BasicStockService();
+
+
+        //check return type
+
+        assertTrue(basicStockService.getQuote("aa") instanceof StockQuote);
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
 
         StockQuote appleSymbol = basicStockService.getQuote(symbol);
         StockQuote nullSymbol = basicStockService.getQuote(nullString);
@@ -40,6 +62,7 @@ public class BasicStockServiceTest {
         assertEquals(nullSymbol.getSymbol(),"Googl");
 
     }
+<<<<<<< HEAD
 
     @Test
     public void ListTestInput(){
@@ -67,3 +90,6 @@ public class BasicStockServiceTest {
 
 }
 
+=======
+}
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e

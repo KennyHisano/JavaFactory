@@ -2,6 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mycompany.app</groupId>
+<<<<<<< HEAD
   <artifactId>AdvancedJava3</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
@@ -18,6 +19,12 @@
     </plugins>
   </build>
   <name>AdvancedJava3</name>
+=======
+  <artifactId>adJava2</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>adJava2</name>
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -26,11 +33,20 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+<<<<<<< HEAD
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-all</artifactId>
       <version>1.9.5</version>
       <scope>test</scope>
     </dependency>
+=======
+      <dependency>
+          <groupId>org.mockito</groupId>
+          <artifactId>mockito-all</artifactId>
+          <version>1.9.5</version>
+          <scope>test</scope>
+      </dependency>
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
   </dependencies>
 </project>

@@ -1,5 +1,6 @@
 package com.mycompany.app;
 
+<<<<<<< HEAD
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -19,12 +20,18 @@ public class StockQuote {
      */
     private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd",Locale.US);
 
+=======
+public class StockQuote {
+
+    private String stockSymbol;
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
 
     /**
      *  Create a new  StockData instance
      * @param stockSymbol the stock symbol e.g. APPL (for APPLE)
      */
     public StockQuote(String stockSymbol) {
+<<<<<<< HEAD
         this.stockSymbol = stockSymbol;
     }
 
@@ -44,10 +51,17 @@ public class StockQuote {
      *
      * @return <CODE>stockSymbol<CODE/> String value
      */
+=======
+
+        this.stockSymbol = stockSymbol;
+    }
+
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
     public String getSymbol(){
         return stockSymbol;
     }
 
+<<<<<<< HEAD
     /**
      *
      * @return <CODE>sdf.format(from.getTime())<CODE/> Calendar value 'from' formatted to String
@@ -80,4 +94,6 @@ public class StockQuote {
         }
         return date;
     }
+=======
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
 }

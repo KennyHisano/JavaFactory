@@ -1,11 +1,14 @@
 package com.mycompany.app;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
 
 
+=======
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
 public class BasicStockService implements StockService {
 
     private StockQuote stockQuote;
@@ -20,6 +23,7 @@ public class BasicStockService implements StockService {
         return new StockQuote("Googl");
     }
 
+<<<<<<< HEAD
     /**
      *
      * @param symbol the stock symbol to search for
@@ -54,4 +58,7 @@ public class BasicStockService implements StockService {
         return returnValue;
 
     };
+=======
+
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
 }

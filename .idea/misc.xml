@@ -8,6 +8,10 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" project-jdk-name="9.0" project-jdk-type="JavaSDK">
+<<<<<<< HEAD
     <output url="file://$PROJECT_DIR$/out" />
+=======
+    <output url="file://$PROJECT_DIR$/classes" />
+>>>>>>> 9c942c52743cc713116c9753243748602addee1e
   </component>
 </project>
